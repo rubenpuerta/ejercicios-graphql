@@ -1,0 +1,92 @@
+db.professors.insert(
+    {
+        "name": "Ruben",
+        "courses": 4,
+        "country": null,
+        "languages": ["Java", "Kotlin", "Swift"],
+        "adress": {
+            street: "Calle Pez",
+            num: 2
+        }
+    }
+)
+
+db.professors.insert(
+    {
+        "name": "Pablo",
+        "courses": 1,
+        "country": null,
+        "languages": ["C", "C++", "C#"],
+        "adress": {
+            street: "Calle Oso",
+            num: 23
+        }
+    }
+)
+
+db.professors.insert(
+    {
+        "name": "Lucia",
+        "courses": 8,
+        "country": null,
+        "languages": ["Java", "GO", "Android"],
+        "adress": {
+            street: "Calle Perro",
+            num: 14
+        }
+    }
+)
+
+db.professors.insert(
+    {
+        "name": "Jimena",
+        "courses": 2,
+        "country": null,
+        "languages": ["HTML", "Javascript", "CSS"],
+        "adress": {
+            street: "Calle Lobo",
+            num: 54
+        }
+    }
+)
+
+db.courses.insertMany(
+    [
+        {
+        "name": "Curso MongoDb",
+        "duration": 300,
+        "students": 1000,
+        "launch date": "2021"
+        },
+                {
+        "name": "Curso Javascript",
+        "duration": 100,
+        "students": 100,
+        "launch date": "2021"
+        },
+                {
+        "name": "Curso CSS",
+        "duration": 50,
+        "students": 10,
+        "launch date": "2022"
+        },
+                {
+        "name": "Curso HTML",
+        "duration": 105,
+        "students": 40,
+        "launch date": "2022"
+        },
+                {
+        "name": "Curso C++",
+        "duration": 10,
+        "students": 20,
+        "launch date": "2023"
+        },
+                {
+        "name": "Curso C#",
+        "duration": 30,
+        "students": 10,
+        "launch date": "2023"
+        },
+    ]
+)
